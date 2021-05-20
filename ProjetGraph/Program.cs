@@ -15,7 +15,7 @@ namespace ProjetGraph
             var graph = InitializeGraph();
             var matrix = graph.Matrix;
 
-            Console.WriteLine("Saisissez la ville de départ (Voir liste des villes vill.txt) :");
+            Console.WriteLine("Saisissez la ville de départ (Voir liste des villes dans villes.txt) :");
             string startCity = string.Empty;
             Node startNode = null;
             do
